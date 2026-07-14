@@ -1,0 +1,97 @@
+.team-tasks-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Page title */
+.team-tasks-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+/* Total task box */
+.total-tasks-box {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+
+.total-tasks-box h2 {
+    margin: 0;
+}
+
+
+/* Team task count cards */
+.team-count-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+.team-count-card {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+
+.team-count-card h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Task list */
+.task-list {
+    margin-top: 20px;
+}
+
+
+.task-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background: white;
+}
+
+
+.task-card h3 {
+    margin-top: 0;
+}
+
+
+/* Status */
+.task-status {
+    font-weight: bold;
+}
+
+
+/* Buttons */
+.team-btn {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.back-btn {
+    background: #555;
+    color: white;
+}
+
+
+.add-task-btn {
+    background: #2196f3;
+    color: white;
+}

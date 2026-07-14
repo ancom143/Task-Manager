@@ -1,0 +1,23 @@
+.container {
+    padding: 30px;
+}
+
+.team-card {
+    border: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: white;
+}
+
+button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
