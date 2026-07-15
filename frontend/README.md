@@ -25,6 +25,7 @@ Make sure you have installed:
 - Node.js
 - Python 3.10+
 - Git
+- docker desktop
 
 ---
 
@@ -40,3 +41,17 @@ python app.py
 cd frontend
 npm install
 npm run dev
+
+##For docker files
+
+docker compose build
+docker compose up
+
+Frontend:
+```
+http://localhost:5173
+```
+
+Backend:
+```
+http://localhost:5000
