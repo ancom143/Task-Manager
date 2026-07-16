@@ -55,6 +55,10 @@ npm run dev
 The frontend will start on `http://localhost:5173`.
 
 ---
+##For docker files
+
+docker compose build
+docker compose up
 
 ## How to Use
 
