@@ -233,12 +233,15 @@ def login():
     password = data.get("password")
 
     user = User.query.filter_by(
-        username=username,
-        password=password
+        username=username
     ).first()
 
     if user is None:
+        return jsonify({
+            "message": "Invalid Username or Password"
+        }), 401
 
+    if not bcrypt.check_password_hash(user.password, password):
         return jsonify({
             "message": "Invalid Username or Password"
         }), 401

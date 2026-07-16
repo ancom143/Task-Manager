@@ -42,7 +42,7 @@ cd frontend
 npm install
 npm run dev
 
-##For docker files
+## For docker files
 
 docker compose build
 docker compose up
